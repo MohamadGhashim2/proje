@@ -1,0 +1,50 @@
+body
+{
+	background-image: linear-gradient(45deg , #8C60C7,#6523c7 ) ;
+	text-align: center;
+
+}
+h1 , h2 , h3  , h5 ,h6 
+{
+	color: #312247;
+	margin-bottom: -0.1%;
+
+}
+.main
+{
+
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #6523c7;
+	border-bottom: 3px dashed #8C60C7;
+	border-right: 3px dashed #8C60C7;
+	padding: 15px;
+    margin: 15%;
+    margin-bottom: -35%;
+}
+.text
+{
+	background-color: lightgray;
+	width: 20%;
+	font-size: 105%;
+}
+.button
+{
+	font-size: 110%;
+	border-color: darkredS;
+	border-radius: 9px;
+	background-color: #bc13fe;
+}
+h4
+{
+	font-family: serif;
+	
+	font-size: 150%;
+	
+	color: #240D47;
+}
+.border {
+		border: 3px  solid blue;
+
+
+}
