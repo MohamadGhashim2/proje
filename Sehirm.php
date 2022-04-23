@@ -1,17 +1,17 @@
 <!doctype html>
-    
+
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="text/css" href="IMG/favicon.ico">
 
-    <title> Ana sayfa</title>
+    <title> Sehrim</title>
 </head>
 <body>
     
 <section>
     <div class="Main-Text">
-        <h3>About Me</h3>
+        <h3>Şehirim</h3>
     <br>
     <br>
     </div>
@@ -25,12 +25,14 @@
  </div>
  <div class="welcome">
       <h2>
-     Welcome <br><h4> <?php echo $_POST["Username"];?></h4>
+     Welcome   
+      
       </h2>     
  </div>
  <div class="welcome">
-     <a href="Sehirm.php" class="link" > <h3>Şehirm</h3></a>
+     <a href="Anasayfa.php" class="link" > <h3>Anasayfa</h3></a>
  </div>
+ 
  <div class="welcome">
      <a href="hobilerim.php" class="link" > <h3>Hobilerim</h3></a>
  </div>
@@ -50,7 +52,6 @@
      <p>®mohamad.ghashim@ogr.sakarya.edu.tr</p>
  </div>
 </footer>
-
     
 
 
