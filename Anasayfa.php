@@ -1,5 +1,11 @@
 <!doctype html>
-    
+
+    <?php
+    ini_set('display_errors', 0);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    $username = $_POST["Username"];
+    ;?>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -19,13 +25,15 @@
  
 </section>
 <aside>
+
     <div>
- <button type="button" onclick="document.location='Giris.html'" class="Button-log" >Log In</button>
+ <button type="button" onclick="document.location='Giris.html'"  class="Button-log" >Log In</button>
  <button type="button" onclick="document.location='Giris.html'" class="Button-log">Sign up</button>
  </div>
+ 
  <div class="welcome">
       <h2>
-     Welcome <br><h4> <?php echo $_POST["Username"];?></h4>
+     Welcome <br><h4> <?php echo "$username";?></h4>
       </h2>     
  </div>
  <div class="welcome">
@@ -37,7 +45,6 @@
  <div class="welcome">
      <a href="ileitism.php" class="link" > <h3>İletişim</h3></a>
  </div>
-
 
 
 

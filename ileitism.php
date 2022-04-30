@@ -1,5 +1,5 @@
 <!doctype html>
-
+    
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -25,7 +25,7 @@
  </div>
  <div class="welcome">
       <h2>
-     Welcome   
+     Welcome<br>
       
       </h2>     
  </div>

@@ -1,38 +1,74 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="text/css" href="IMG/favicon.ico">
+    
+    <link rel="icon"  href="IMG/favicon.ico">
     <title>Login</title>
 </head>
 <body>
-    <div class="main"> 
-        
-    
-    <form action="Anasayfa.php" method="post">
-        <div class="textmain">
-        <h4>
-        Write Your Email And Password
-             </h4>
-         </div>
-             <h3> 
-                Username :
-            </h3>
-<input  type="text" name="Username" value="Mohamad GHASHIM" class="text">
-<h3> 
-                Email :
-            </h3>
-<input  type="Email" name="email" value="g211210559@gmail.com" class="text">
-<h3>
-    Password :
-</h3>
-<input type="text" name="Pass" value="g211210559" class="text">
-<br>
-<br>
-
- <input type="submit" name="Gonder" value="Giris Yap" class="button">
- <input type="reset" name="reset" value="Temizle" class="button">
-    </form> 
+    <div class="container-fluid ">
+        <div class="row text-start border-start border-end border-secondary">
+            <div class="col bg-color">
+               <div class="btn">
+                    <a href="Anasayfa.php" class="text-decoration-none text-light" ><h1>Mohamad GHASHIM</h1></a>
+               </div>
+            </div>
+        </div> 
     </div>
+    <div class="container">
+        <div class="row text-start border-start border-end border-secondary  m-5 ms-0" >
+            <div class="col align-self-center bg-color" style="height: 500px;">
+                <div class="text-light text-center align-item-center mt-5">
+                    <h4>Write Your Email & Password  </h4> 
+                </div>
+                <form action="Anasayfa.php" method="post">
+                    <div class="text-light mt-5">
+                        <h4>
+                            Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :<input class="small" type="email" name="email" value="g211201559@sakarya.tr" required autofocus> 
+                        </h4>   
+                    </div>
+                    <div class="text-light mt-5">
+                        <h4>Password :<input class="small" type="password" name="password" value="g211210559" required></h4>  
+                    </div>
+                    
+                    <div class="text-light btn-groub mt-5 " >
+
+                        <input class="btn btn btn-outline-secondary btn-lg mt-5" type="submit" value="Login"> 
+                        <input class="btn btn btn-outline-secondary btn-lg mt-5" type="reset" value="Clear"> 
+                        
+                    </div>
+                </form>
+                   
+    
+            </div>
+        </div>
+    </div>
+            
+            
+        
+           
+            
+       
+        
+    <footer class="container-fluid fixed-bottom">
+     
+            <div class="row  " >
+                <div class="col align-self-end bg-white bg-opacity-50 mb-0 ">
+            
+                <p>®mohamad.ghashim@ogr.sakarya.edu.tr</p>
+             </div>
+         </div>
+        
+    </footer>
+    
+    
+    
+    
 </body>
 </html>
