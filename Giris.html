@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -7,68 +8,84 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <link rel="icon"  href="IMG/favicon.ico">
+
+    <link rel="icon" href="IMG/favicon.ico">
     <title>Login</title>
 </head>
+
 <body>
+
     <div class="container-fluid ">
         <div class="row text-start border-start border-end border-secondary">
             <div class="col bg-color">
-               <div class="btn">
-                    <a href="Anasayfa.php" class="text-decoration-none text-light" ><h1>Mohamad GHASHIM</h1></a>
-               </div>
-            </div>
-        </div> 
-    </div>
-    <div class="container">
-        <div class="row text-start border-start border-end border-secondary  m-5 ms-0" >
-            <div class="col align-self-center bg-color" style="height: 500px;">
-                <div class="text-light text-center align-item-center mt-5">
-                    <h4>Write Your Email & Password  </h4> 
+                <div class="btn">
+                    <a href="Anasayfa.php" class="text-decoration-none text-light">
+                        <h1>Mohamad GHASHIM</h1>
+                    </a>
                 </div>
-                <form action="Anasayfa.php" method="post">
-                    <div class="text-light mt-5">
-                        <h4>
-                            Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :<input class="small" type="email" name="email" value="g211201559@sakarya.tr" required autofocus> 
-                        </h4>   
-                    </div>
-                    <div class="text-light mt-5">
-                        <h4>Password :<input class="small" type="password" name="password" value="g211210559" required></h4>  
-                    </div>
-                    
-                    <div class="text-light btn-groub mt-5 " >
-
-                        <input class="btn btn btn-outline-secondary btn-lg mt-5" type="submit" value="Login"> 
-                        <input class="btn btn btn-outline-secondary btn-lg mt-5" type="reset" value="Clear"> 
-                        
-                    </div>
-                </form>
-                   
-    
             </div>
         </div>
     </div>
-            
-            
-        
-           
-            
-       
-        
+    <div class="container">
+        <div class="row text-start border-start border-end border-secondary  m-5 ms-0">
+            <div class="col align-self-center bg-color" style="height: 500px;">
+                <div class="text-light text-center align-item-center mt-5">
+                    <h4>Write Your Email & Password </h4>
+                </div>
+                <form action="" method="post" id="form">
+                    <div class="text-light mt-5">
+                        <h4>
+                            Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :<input class="small ms-2" type="email" name="" value="g211210559@sakarya.tr" id="email" required autofocus>
+                        </h4>
+                    </div>
+                    <div class="text-light mt-5">
+                        <h4>Password :<input class="small ms-1 " type="password" name="" value="g211210559" id="password" required></h4>
+                    </div>
+
+                    <div class="text-light btn-groub mt-5 ">
+
+                        <input class="btn btn btn-outline-secondary btn-lg mt-5" type="button" value="Login" onclick="Giris()">
+                        <input class="btn btn btn-outline-secondary btn-lg mt-5" type="reset" value="Clear">
+
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col ">
+                <div class="alert-danger me-5">
+                    <h3 id="text"></h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
     <footer class="container-fluid fixed-bottom">
-     
-            <div class="row  " >
-                <div class="col align-self-end bg-white bg-opacity-50 mb-0 ">
-            
-                <p>®mohamad.ghashim@ogr.sakarya.edu.tr</p>
-             </div>
-         </div>
-        
+
+        <div class="row  ">
+            <div class="col align-self-end bg-white bg-opacity-50 mb-0 small ">
+
+                <a class="text-decoration-none" href="mailto:mohamad.ghashim@ogr.sakarya.edu.tr">
+                    <p class="small mb-1 " style="color: rgb(78, 76, 76);">@mohamad.ghashim@ogr.sakarya.edu.tr</p>
+                </a>
+            </div>
+        </div>
+
     </footer>
-    
-    
-    
-    
+
+
+
+    <script src="js/login.js"></script>
+
 </body>
+
 </html>
