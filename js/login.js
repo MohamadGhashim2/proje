@@ -4,7 +4,7 @@ function Giris() {
     var ture = false;
     var alert1 = document.getElementById("text");
     if (email == "g211210559@sakarya.tr" & password == "g211210559") {
-        alert("Başarılı ")
+        alert("Hoşgeldin G211210559 ")
         ture = true;
 
     } else {
