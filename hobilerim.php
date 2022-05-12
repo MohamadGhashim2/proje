@@ -1,60 +1,83 @@
 <!doctype html>
 
 <html>
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="text/css" href="IMG/favicon.ico">
 
-    <title> Hobilerim</title>
+    <title> Ana sayfa</title>
 </head>
+
 <body>
+  <header class="container-fluid">
+        <div class="row text-start border-start border-end border-bottom border-secondary">
+            <div class="col bg-color">
+                <div class="btn">
+                    <a href="Anasayfa.php" class="text-decoration-none text-light">
+                        <h1>Mohamad GHASHIM</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+  </header>
+  <nav class="navbar navbar-expand navbar-dark bg-color">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="Giris.html">Login</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Anasayfa.php">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Sehirm.php">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobilerim.php">Hobilerim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ileitism.php">İletişim</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+  </nav>
+
+  <section class="container ">
+  
+  
     
-<section>
-    <div class="Main-Text">
-        <h3>Hobilerim</h3>
-    <br>
-    <br>
-    </div>
-    
- 
-</section>
-<aside>
-    <div>
- <button type="button" onclick="document.location='Giris.html'" class="Button-log" >Log In</button>
- <button type="button" onclick="document.location='Giris.html'" class="Button-log">Sign up</button>
- </div>
- <div class="welcome">
-      <h2>
-     Welcome   
-      
-      </h2>     
- </div>
- <div class="welcome">
-     <a href="Anasayfa.php" class="link" > <h3>Anasayfa</h3></a>
- </div>
- <div class="welcome">
-     <a href="Sehirm.php" class="link" > <h3>Şehirm</h3></a>
- </div>
- 
- <div class="welcome">
-     <a href="ileitism.php" class="link" > <h3>İletişim</h3></a>
- </div>
+  </section>
 
+  <footer class="container-fluid fixed-bottom">
 
+        <div class="row  ">
+            <div class="col align-self-end bg-white bg-opacity-50 mb-0 small ">
 
+                <a class="text-decoration-none" href="mailto:mohamad.ghashim@ogr.sakarya.edu.tr">
+                    <p class="small mb-1 " style="color: rgb(78, 76, 76);">@mohamad.ghashim@ogr.sakarya.edu.tr</p>
+                </a>
+            </div>
+        </div>
 
-
-</aside>
-<footer>
-    <div id="footer-text">
-        
-    
-     <p>®mohamad.ghashim@ogr.sakarya.edu.tr</p>
- </div>
-</footer>
-
-    
-
+  </footer>
 
 </body>
+
 </html>

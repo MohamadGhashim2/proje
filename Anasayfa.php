@@ -62,9 +62,9 @@
   <section class="container ">
   
     <div class="row bg-color text-light  " >
-      <div class="col   ">
+      <div class="col  mx-auto  ">
             <div class="card bg-color" style="width: 18rem;">
-                   <img src="IMG/istanbul fatih after editing.png" class="card-img-top " alt="">
+                   <img src="IMG/istanbul fatih after editing.png" class="card-img-bottom " alt="">
                      <div class="card-body text-center">
                        <h5 class="card-title">Mohamad Ghashim</h5>
                          
@@ -72,7 +72,10 @@
             </div>
                      </div>
       </div>
-      
+      <div>
+        h
+</div>
+
 
     </div>
     
