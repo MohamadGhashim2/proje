@@ -40,20 +40,27 @@
       >
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
+      <div class="collapse navbar-collapse small" id="navbarNav">
+        <ul class="navbar-nav small">
+          <li class="nav-item small">
             <a class="nav-link active" aria-current="page" href="Anasayfa.php">Anasayfa</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item small">
+            <a class="nav-link" href="hakkımda.php">Hakkımda</a>
+          </li>
+          <li class="nav-item small">
+            <a class="nav-link" href="cv.php">Cv</a>
+          </li>
+          <li class="nav-item small">
             <a class="nav-link" href="Sehirm.php">Şehrim</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hobilerim.php">Hobilerim</a>
+          <li class="nav-item small">
+            <a class="nav-link" href="miras.php">Miras</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item small">
             <a class="nav-link" href="ileitism.php">İletişim</a>
           </li>
+        
         </ul>
       </div>
       </div>
@@ -61,19 +68,24 @@
 
   <section class="container ">
   
-    <div class="row bg-color text-light  " >
-      <div class="col  mx-auto  ">
-            <div class="card bg-color" style="width: 18rem;">
-                   <img src="IMG/istanbul fatih after editing.png" class="card-img-bottom " alt="">
-                     <div class="card-body text-center">
+    <div class="row bg-color text-light mx-auto "  style="height: 613px">
+      <div class="col-md-3  border  ">
+            <div class="card bg-color ">
+                   <img src="IMG/istanbul fatih after editing.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
+                     <div class="card-body text-center p-2">
                        <h5 class="card-title">Mohamad Ghashim</h5>
                          
                               
             </div>
                      </div>
+                     <div class="fw-bold p-2 d-none " >
+        <p >Benim adım <span class ="fw-bolder ">Mohamad GHASHIM</span> Bilgisayar mühendislik okuyorum  kişisel web siteme hoşgeldiniz.</p> 
+
+</div>
+
       </div>
-      <div>
-        h
+      <div class="col-md-9 border">
+
 </div>
 
 
