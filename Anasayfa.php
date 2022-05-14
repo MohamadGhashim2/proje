@@ -28,7 +28,7 @@
   </header>
   <nav class="navbar navbar-expand navbar-dark bg-color">
       <div class="container-fluid">
-      <a class="navbar-brand small" href="Giris.html" id="logo">Login</a>
+      <a class="navbar-brand small" href="index.html" id="logo">Login</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -68,42 +68,50 @@
       </div>
       </div>
   </nav>
-
-  <section class="container ">
   
-    <div class="row bg-color text-light mx-auto "  style="height: 613px">
-      <div class="col-md-3  border bg-color  ">
-            <div class="card bg-color ">
-                   <img src="IMG/istanbul fatih after editing2.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
-                     <div class="card-body text-center p-2">
-                       <h5 class="card-title">Mohamad Ghashim</h5>
-                         
-                              
-            </div>
-                     </div>
-                     <div class="fw-bold p-2  " >
-        <p >Benim adım <span class ="fw-bolder ">Mohamad GHASHIM</span> Bilgisayar mühendislik okuyorum  kişisel web siteme hoşgeldiniz.</p> 
+<div class="container">
+ 
 
+
+        <div class="row bg-color text-light mx-auto " style="height: 613px">
+            <aside class="col-md-3  border bg-color  ">
+                <div class="card bg-color ">
+                    <img src="IMG/istanbul fatih after editing2.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
+                    <div class="card-body text-center p-2">
+                        <h5 class="card-title">Mohamad Ghashim</h5>
+
+
+                    </div>
+                </div>
+                
+            </aside>
+            <section class="col-md-9 bg-color border mx-auto p-3">
+                <div class="d-inline">
+                    <h4>Benim <a href="hakkımda.php" class="text-decoration-none text-light "><u>Hakkımda</u></a> Okumak İstersen.</h4>
+                </div>
+                <div class="d-inline">
+                    <h4> <a href="cv.php" class="text-decoration-none text-light "><u>CV'mi</u></a> okumak için.</h4>
+                </div>
+                <div class="d-inline">
+                    <h4> <a href="Sehirm.php" class="text-decoration-none text-light "><u>Şehrimin</u></a> hakkında okumak için.</h4>
+                </div>
+                <div class="d-inline">
+                    <h4>Şehrimdeki <a href="cv.php" class="text-decoration-none text-light "><u>Miras.</u></a> </h4>
+                </div>
+                <div class="d-inline">
+                    <h4> Benimle <a href="cv.php" class="text-decoration-none text-light "><u>iletişime</u></a> geç. </h4>
+                </div>
+            </section>
+
+
+        </div>
+
+  
 </div>
-
-      </div>
-      <div class="col-md-9 bg-color border ">
-        <div class="d-inline">
-<h4>Benim <a href="hakkımda.php" class="text-decoration-none text-light "><u>Hakkımda</u></a> Okumak İstersen.</h4></div>
-<div class="d-inline">
-<h4> <a href="cv.php" class="text-decoration-none text-light "><u>CV'mi</u></a>  okumak için.</h4></div>
-<div class="d-inline">
-<h4> <a href="Sehirm.php" class="text-decoration-none text-light "><u>Şehrimin</u></a> hakkında okumak için.</h4></div>
-<div class="d-inline">
-<h4>Şehrimdeki  <a href="cv.php" class="text-decoration-none text-light "><u>Miras.</u></a> </h4></div>
-<div class="d-inline">
-<h4> Benimle <a href="cv.php" class="text-decoration-none text-light "><u>iletişime</u></a> geç. </h4></div>
-</div>
+  
 
 
-    </div>
-    
-  </section>
+
 
   <footer class="container-fluid fixed-bottom">
 

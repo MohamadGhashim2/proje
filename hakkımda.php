@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="text/css" href="IMG/favicon.ico">
 
-    <title> Ana sayfa</title>
+    <title> Hakkımda</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
   </header>
   <nav class="navbar navbar-expand navbar-dark bg-color">
       <div class="container-fluid">
-      <a class="navbar-brand small" href="Giris.html" id="logo">Login</a>
+      <a class="navbar-brand small" href="index.html" id="logo">Login</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -43,10 +43,10 @@
       <div class="collapse navbar-collapse small" id="navbarNav">
         <ul class="navbar-nav small">
           <li class="nav-item small">
-            <a class="nav-link active small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
+            <a class="nav-link small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
           </li>
           <li class="nav-item small">
-            <a class="nav-link small" href="hakkımda.php">Hakkımda</a>
+            <a class="nav-link active small" href="hakkımda.php">Hakkımda</a>
           </li>
           <li class="nav-item small">
             <a class="nav-link small" href="cv.php">Cv</a>
@@ -67,13 +67,13 @@
         </ul>
       </div>
       </div>
-  </nav>
+  </nav>  
 
 
   <section class="container ">
-  <div class="row bg-color text-light mx-auto "  style="height: 613px">
+    <div class="row bg-color text-light mx-auto "  style="height: 613px">
 
-</div>
+    </div>
   </section>
 
   <footer class="container-fluid fixed-bottom">
