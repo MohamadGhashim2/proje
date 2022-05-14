@@ -28,7 +28,7 @@
   </header>
   <nav class="navbar navbar-expand navbar-dark bg-color">
       <div class="container-fluid">
-      <a class="navbar-brand" href="Giris.html">Login</a>
+      <a class="navbar-brand small" href="Giris.html" id="logo">Login</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,27 +38,30 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars small"></i>
       </button>
       <div class="collapse navbar-collapse small" id="navbarNav">
         <ul class="navbar-nav small">
           <li class="nav-item small">
-            <a class="nav-link active" aria-current="page" href="Anasayfa.php">Anasayfa</a>
+            <a class="nav-link active small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
           </li>
           <li class="nav-item small">
-            <a class="nav-link" href="hakkımda.php">Hakkımda</a>
+            <a class="nav-link small" href="hakkımda.php">Hakkımda</a>
           </li>
           <li class="nav-item small">
-            <a class="nav-link" href="cv.php">Cv</a>
+            <a class="nav-link small" href="cv.php">Cv</a>
           </li>
           <li class="nav-item small">
-            <a class="nav-link" href="Sehirm.php">Şehrim</a>
+            <a class="nav-link small" href="Sehirm.php">Şehrim</a>
           </li>
           <li class="nav-item small">
-            <a class="nav-link" href="miras.php">Miras</a>
+            <a class="nav-link small" href="miras.php">Miras</a>
           </li>
           <li class="nav-item small">
-            <a class="nav-link" href="ileitism.php">İletişim</a>
+            <a class="nav-link small" href="ilgilanalarım.php">İlgi alanlarım</a>
+          </li>
+          <li class="nav-item small">
+            <a class="nav-link small" href="ileitism.php">İletişim</a>
           </li>
         
         </ul>
@@ -69,23 +72,32 @@
   <section class="container ">
   
     <div class="row bg-color text-light mx-auto "  style="height: 613px">
-      <div class="col-md-3  border  ">
+      <div class="col-md-3  border bg-color  ">
             <div class="card bg-color ">
-                   <img src="IMG/istanbul fatih after editing.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
+                   <img src="IMG/istanbul fatih after editing2.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
                      <div class="card-body text-center p-2">
                        <h5 class="card-title">Mohamad Ghashim</h5>
                          
                               
             </div>
                      </div>
-                     <div class="fw-bold p-2 d-none " >
+                     <div class="fw-bold p-2  " >
         <p >Benim adım <span class ="fw-bolder ">Mohamad GHASHIM</span> Bilgisayar mühendislik okuyorum  kişisel web siteme hoşgeldiniz.</p> 
 
 </div>
 
       </div>
-      <div class="col-md-9 border">
-
+      <div class="col-md-9 bg-color border ">
+        <div class="d-inline">
+<h4>Benim <a href="hakkımda.php" class="text-decoration-none text-light "><u>Hakkımda</u></a> Okumak İstersen.</h4></div>
+<div class="d-inline">
+<h4> <a href="cv.php" class="text-decoration-none text-light "><u>CV'mi</u></a>  okumak için.</h4></div>
+<div class="d-inline">
+<h4> <a href="Sehirm.php" class="text-decoration-none text-light "><u>Şehrimin</u></a> hakkında okumak için.</h4></div>
+<div class="d-inline">
+<h4>Şehrimdeki  <a href="cv.php" class="text-decoration-none text-light "><u>Miras.</u></a> </h4></div>
+<div class="d-inline">
+<h4> Benimle <a href="cv.php" class="text-decoration-none text-light "><u>iletişime</u></a> geç. </h4></div>
 </div>
 
 
@@ -105,6 +117,8 @@
         </div>
 
   </footer>
+ 
+
 
 </body>
 

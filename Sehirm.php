@@ -28,7 +28,7 @@
   </header>
   <nav class="navbar navbar-expand navbar-dark bg-color">
       <div class="container-fluid">
-      <a class="navbar-brand" href="Giris.html">Login</a>
+      <a class="navbar-brand small" href="Giris.html" id="logo">Login</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,29 +38,39 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars small"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Anasayfa.php">Anasayfa</a>
+      <div class="collapse navbar-collapse small" id="navbarNav">
+        <ul class="navbar-nav small">
+          <li class="nav-item small">
+            <a class="nav-link active small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Sehirm.php">Şehrim</a>
+          <li class="nav-item small">
+            <a class="nav-link small" href="hakkımda.php">Hakkımda</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hobilerim.php">Hobilerim</a>
+          <li class="nav-item small">
+            <a class="nav-link small" href="cv.php">Cv</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ileitism.php">İletişim</a>
+          <li class="nav-item small">
+            <a class="nav-link small" href="Sehirm.php">Şehrim</a>
           </li>
+          <li class="nav-item small">
+            <a class="nav-link small" href="miras.php">Miras</a>
+          </li>
+          <li class="nav-item small">
+            <a class="nav-link small" href="ilgilanalarım.php">İlgi alanlarım</a>
+          </li>
+          <li class="nav-item small">
+            <a class="nav-link small" href="ileitism.php">İletişim</a>
+          </li>
+        
         </ul>
       </div>
       </div>
   </nav>
 
+
   <section class="container ">
-  
   
     
   </section>

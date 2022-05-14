@@ -29,27 +29,33 @@
     </header>
     <nav class="navbar navbar-expand navbar-dark bg-color ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="Giris.html">Login</a>
+            <a class="navbar-brand" href="Giris.html" id="logo">Login</a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+            <div class="collapse navbar-collapse small" id="navbarNav">
+                <ul class="navbar-nav small">
+                    <li class="nav-item small">
                         <a class="nav-link active" aria-current="page" href="Anasayfa.php">Anasayfa</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item small">
+                        <a class="nav-link" href="hakkımda.php">Hakkımda</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link" href="cv.php">Cv</a>
+                    </li>
+                    <li class="nav-item small">
                         <a class="nav-link" href="Sehirm.php">Şehrim</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hobilerim.php">Hobilerim</a>
+                    <li class="nav-item small">
+                        <a class="nav-link" href="miras.php">Miras</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item small">
                         <a class="nav-link" href="ileitism.php">İletişim</a>
                     </li>
+
                 </ul>
             </div>
-        </div>
     </nav>
     <section class="container">
         <div class="row text-start border-start border-end border-secondary  m-5 ms-0 mx-auto">
@@ -57,7 +63,7 @@
                 <div class="text-light text-center align-item-center mt-5">
                     <h4>Write Your Email & Password </h4>
                 </div>
-                <form action="" method="post" id="form">
+                <form action="Anasayfa.php" method="get" id="form">
                     <div class="text-light mt-5">
                         <h4>
                             Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :<input class="small ms-2" type="email" name="" value="g211210559@sakarya.tr" id="email" required autofocus>
@@ -73,19 +79,15 @@
                         <input class="btn btn btn-outline-secondary btn-lg mt-5" type="reset" value="Clear">
 
                     </div>
+                    <div class="alert-danger me-5 mt-3">
+                        <h3 id="text"></h3>
+                    </div>
                 </form>
 
 
             </div>
         </div>
-        <div class="row ">
-            <div class="col ">
-                <div class="alert-danger me-5">
-                    <h3 id="text"></h3>
-                </div>
-            </div>
 
-        </div>
     </section>
 
 
