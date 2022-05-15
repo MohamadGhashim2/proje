@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header class="container-fluid">
+    <header class="container-fluid">
         <div class="row text-start border-start border-end border-bottom border-secondary">
             <div class="col bg-color">
                 <div class="btn">
@@ -25,58 +25,58 @@
                 </div>
             </div>
         </div>
-  </header>
-  <nav class="navbar navbar-expand navbar-dark bg-color">
-      <div class="container-fluid">
-      <a class="navbar-brand small" href="index.html" id="logo">Login</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-mdb-toggle="collapse"
-        data-mdb-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+    </header>
+    <nav class="navbar navbar-expand navbar-dark bg-color">
+        <div class="container-fluid">
+            <a class="navbar-brand small" href="index.html" id="logo">Login</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars small"></i>
       </button>
-      <div class="collapse navbar-collapse small" id="navbarNav">
-        <ul class="navbar-nav small">
-          <li class="nav-item small">
-            <a class="nav-link  small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
-          </li>
-          <li class="nav-item small">
-            <a class="nav-link small" href="hakkımda.php">Hakkımda</a>
-          </li>
-          <li class="nav-item small">
-            <a class="nav-link small" href="cv.php">Cv</a>
-          </li>
-          <li class="nav-item small">
-            <a class="nav-link small" href="Sehirm.php">Şehrim</a>
-          </li>
-          <li class="nav-item small">
-            <a class="nav-link small" href="miras.php">Miras</a>
-          </li>
-          <li class="nav-item small">
-            <a class="nav-link active small" href="ilgilanalarım.php">İlgi alanlarım</a>
-          </li>
-          <li class="nav-item small">
-            <a class="nav-link small" href="ileitism.php">İletişim</a>
-          </li>
-        
-        </ul>
-      </div>
-      </div>
-  </nav>
+            <div class="collapse navbar-collapse small" id="navbarNav">
+                <ul class="navbar-nav small">
+                    <li class="nav-item small">
+                        <a class="nav-link  small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link small" href="hakkımda.php">Hakkımda</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link small" href="cv.php">Cv</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link small" href="Sehirm.php">Şehrim</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link small" href="miras.php">Miras</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link active small" href="ilgilanalarım.php">İlgi alanlarım</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-link small" href="ileitism.php">İletişim</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
-  <section class="container ">
-    <div class="row bg-color text-light mx-auto "  style="height: 613px">
+    <section class="container ">
+        <div class="row bg-color text-light  ">
+<div class="col mx-auto">
+  <h3>
+       Film izlemekle ilgileniyorum
+  </h3>
 
-    </div>
-  </section>
+</div>
+        </div>
+        <div class="row bg-color text-light films " >
 
-  <footer class="container-fluid fixed-bottom">
+        </div>
+    </section>
+
+    <footer class="container-fluid fixed-bottom">
 
         <div class="row  ">
             <div class="col align-self-end bg-white bg-opacity-50 mb-0 small ">
@@ -87,7 +87,8 @@
             </div>
         </div>
 
-  </footer>
+    </footer>
+    <script src="js/main.js"></script>
 
 </body>
 

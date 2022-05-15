@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="text/css" href="IMG/favicon.ico">
 
-    <title> Hakkımda</title>
+    <title>İletişim</title>
 </head>
 
 <body>
@@ -35,10 +35,10 @@
             <div class="collapse navbar-collapse small" id="navbarNav">
                 <ul class="navbar-nav small">
                     <li class="nav-item small">
-                        <a class="nav-link small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
+                        <a class="nav-link  small" aria-current="page" href="Anasayfa.php">Anasayfa</a>
                     </li>
                     <li class="nav-item small">
-                        <a class="nav-link active small" href="hakkımda.php">Hakkımda</a>
+                        <a class="nav-link small" href="hakkımda.php">Hakkımda</a>
                     </li>
                     <li class="nav-item small">
                         <a class="nav-link small" href="cv.php">Cv</a>
@@ -50,10 +50,10 @@
                         <a class="nav-link small" href="miras.php">Miras</a>
                     </li>
                     <li class="nav-item small">
-                        <a class="nav-link small" href="ilgilanalarım.php">İlgi alanlarım</a>
+                        <a class="nav-link  small" href="ilgilanalarım.php">İlgi alanlarım</a>
                     </li>
                     <li class="nav-item small">
-                        <a class="nav-link small" href="ileitism.php">İletişim</a>
+                        <a class="nav-link small active" href="ileitism.php">İletişim</a>
                     </li>
 
                 </ul>
@@ -62,54 +62,39 @@
     </nav>
 
 
-    <div class="container">
+    <section class="container border">
+        <div class="row bg-color  text-light">
+        <div class ="col">
+            <div>
+                <h2>
+                    Gönderdiğin Message....
 
 
-
-        <div class="row bg-color text-light mx-auto " style="height: 613px">
-            <aside class="col-md-3  border bg-color  ">
-                <div class="card bg-color ">
-                    <img src="IMG/istanbul fatih after editing2.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
-                    <div class="card-body text-center p-2">
-                        <h5 class="card-title">Mohamad Ghashim</h5>
-
-
-                    </div>
-                </div>
-                <div class="small p-2">
-                    <p class="text">Adım <span class="fw-bolder ">Mohamad GHASHIM</span></p>
-                    <p>Yaş :<span class="fw-bolder"> 19</span></p>
-                    <p>Ülke :<span class="fw-bolder"> Süriye</span></p>
-                    <p>Üniversite Bölümü :<span class="fw-bolder">Bilgisayar Mühendislik</span></p>
-                </div>
-
-
-
-            </aside>
-            <section class="col-md-9 bg-color border mx-auto p-3">
-                <p class="fs-5 fw-light d-block mx-auto">
-                    Adım<span class="fst-italic fw-bold"> Mohamad GHASHIM</span> Bilgisayar Mühendislik okuyorum.<br>
-                     Süriye/Halep'te doğdum.<br>
-                      (Şehrim hakkında daha fazla bilgi almak için <a href="Sehirm.php" class="text-decoration-none text-light "><u>buraya</u></a>                    tıklayabilirsiniz.)<br><br> 
-                      Hobilerim : Yüzme, okuma ve video oyunları.<br>
-                       Okuduğum Kitaplerden <a href="https://www.kitapyurdu.com/kitap/miramar/349129.html" class="text-decoration-none text-light " target="blank"><u>MİRAMAR</u></a>                    mısırlı bir yazıcı türkçeye çevirilmiş.<br>
-                        Sevdiğim oyunu <a href="https://www.youtube.com/watch?v=edYCtaNueQY" class="text-decoration-none text-light " target="blank"><u>CS-GO</u>.</a>
-
-
-
-
-
-
-
-
-                </p>
-            </section>
-
-
+                </h2>
+            </div>
+            <div class="mx-auto d-block">
+                <h4 class="d-inline"> Adı :</h4>
+            <?php  
+        echo $_POST["ad"]; 
+        ?>
+            </div>
+            <div class="mx-auto d-block">
+            <h4 class="d-inline"> Email :</h4>
+            <?php  
+        echo $_POST["email"]; 
+        ?>
+            </div>
+            <div class="mx-auto d-block">
+            <h4 class="d-inline"> Message :</h4>
+            <?php  
+        echo htmlspecialchars($_POST['textarea']); 
+        ?>
+            </div>
+       
         </div>
 
-
-    </div>
+        </div>
+    </section>
 
     <footer class="container-fluid fixed-bottom">
 
@@ -123,6 +108,7 @@
         </div>
 
     </footer>
+    <script src="js/main.js"></script>
 
 </body>
 

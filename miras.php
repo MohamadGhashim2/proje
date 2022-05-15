@@ -68,11 +68,37 @@
       </div>
       </div>
   </nav>
-
-
   <section class="container ">
-    <div class="row bg-color text-light mx-auto "  style="height: 613px">
+    <div class="row  text-light mx-auto bg-color border"  >
+      <div class="col-md-5 mx-auto  " >
+        <div class="border">
+          
+        <img src="IMG/halep castle.jpg" class="img-fluid">
+        <h1>
 
+          HALEP KALESİ
+        
+        </h1>
+        </div>
+        <div >
+          
+       
+         <p>  Halep, MÖ 2. binyıldan itibaren birçok ticaret yolunun kavşağında olduğu için Hititler, Asuriler, Araplar, Moğollar, Memlükler ve Osmanlıların kontrolü altındaydı. 13. yüzyıla tarihlenen kalesi, 12. yüzyılda inşa edilen büyük camisi ve 17. yüzyılda inşa edilen okulları, sarayları, kervansarayları ve hamamları, kent dokusuna uyumlu ve özgün bir karakter kazandırmaktadır. bugün aşırı kalabalık tehdidi altında. </p>
+       </div>
+
+      </div>
+      <div class="col-md-7 mx-auto  ">
+        <div class="p-2">
+        
+         <p>Halep Kalesi, Suriye'nin kuzeyindeki Halep şehrinde bulunan bir Suriye kalesidir. Kale, büyüklüğü ile ayırt edilir ve dünyanın en büyük kalelerinden biri olarak kabul edilir.Kalenin tarihi eski zamanlara kadar uzanır.Kale Halep şehrinin merkezinde bir tepede oturur. kale, ortadaki yüksek bir kapıdan geçen ve kalenin ana kapısına kadar kademeli olarak yükselen kemerler üzerine inşa edilen devasa bir merdiven veya amfi tiyatro ile yapılır.</p>
+
+         <p>Kale yarım daire şeklinde bir duvar ve farklı medeniyetlere ait çok sayıda kule ile çevrilidir.Muhteşem kalenin içinde önümüzde bütünleşmiş binalar, kiliseler, camiler, salonlar, mağazalar, meydanlar, tiyatro, dükkânlar ve birçok kalıntı.Sultan Zahir Ghazi bin Salah Al-Din döneminde kale ile ilgilendi, bu yüzden inşa edildi.Ana kapı ve kale içindeki bazı tesisler.</p>
+         <p>Kalenin ana girişi kapılar, koridorlar, savunma ve mühimmat hollerinden oluşan devasa bir yapıdan oluşmaktadır.Bu yapının tepesinde büyük bir salon, cephesi harika taş süslemelerle süslenmiş taht odası, odalar ve salonlar bulunmaktadır. Bir dizi küçük ve büyük pencere, antik Halep'in en güzel manzarasına bakmaktadır.<br><br>
+
+         Halep Kalesi, en güzel, yenilikçi ve en büyük kalelerden biridir ve olaylarla dolu bir tarihe sahiptir.Birçok hükümdar, kral ve liderin başlangıç ​​noktası ve üssü olmuş ve Arami döneminden Doğu'nun en önemli olaylarına tanıklık etmiştir. İslam dönemine.</p>
+        </div>
+         
+      </div>
     </div>
   </section>
 

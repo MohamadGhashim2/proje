@@ -19,7 +19,7 @@
         <div class="row text-start border-start border-end border-bottom border-secondary">
             <div class="col bg-color">
                 <div class="btn">
-                    <a href="Anasayfa.php" class="text-decoration-none text-light">
+                    <a href="Anasayfa.php" class="  text-decoration-none text-light">
                         <h1>Mohamad GHASHIM</h1>
                     </a>
                 </div>
@@ -70,11 +70,47 @@
   </nav>
 
 
-  <section class="container ">
+  <div class="container ">
+
     <div class="row bg-color text-light mx-auto "  style="height: 613px">
 
+     <aside class="col-3  border bg-color  ">
+         <div class="card bg-color ">
+             <img src="IMG/istanbul fatih after editing2.png" class="card-img-top rounded-circle img-fluid  " alt="profile picture">
+             <div class="card-body text-center p-2">
+                 <h5 class="card-title d-none d-md-block">Mohamad Ghashim</h5>
+
+
+             </div>
+         </div>
+         <div class="small p-2">
+             <p class="text">Adım <span class="fw-bolder ">Mohamad   GHASHIM</span>
+             </p>
+             <p>Yaş :<span class="fw-bolder"> 19</span>
+             </p>
+             <p>Ülke :<span class="fw-bolder"> Süriye</span>
+             </p>
+             <p>Üniversite Bölümü :<span class="fw-bolder">Bilgisayar Mühendislik</span>
+             </p>
+         </div>
+
+         
+         
+     </aside>
+      <section class="col-9 border "> 
+          <div>
+            <p>
+             İlk okul Süriyede okudum <br>ortada Suudi Arabistan'a taşındım orada okumaya devam ettim <br>  12'nci sınıfında Türkiyede arab bir okulda okudum ve YÖS Sınava girmek için hazrırlandım <br> sakarya sınavında 70 puan aldım SAÜ de bilgisayar mühendislik kazandım
+
+            </p>
+          </div>
+
+
+
+      </section>
+
     </div>
-  </section>
+  </div>
 
   <footer class="container-fluid fixed-bottom">
 
